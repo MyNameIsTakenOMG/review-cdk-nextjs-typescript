@@ -56,8 +56,33 @@
 
 
 ## nextjs
- - 
+ - routing and navifation
+   - <Link />
+ - metadata
+ - styling (tailwind)
+ - <Image />
+ - client vs server components - data fetching (get)
+ - server actions (post/put/delete)
+ - suspense and streaming
+ - caching
+ - static & dynamic rendering
+ - middleware
+ - production build and deploying
 
+
+## nextjs with typescript
+ - component props typing
+ - alternative ways
+ - dynamic routes types
+ - reusable types
+ - types for usestate()
+ - useref,forms, events
+ - elementwrapper
+ - type predicates: Type Predicate Functions are functions that return a boolean value and have a particular return type syntax. A type predicate is a type assertion that checks if an object has a specific property or set of properties. This allows TypeScript to narrow (or refine) the type of an object based on the result of the function.
+ - context api types
+ - usereducer types
+ - useeffect types
+ - global types
 
 
 
