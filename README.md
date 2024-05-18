@@ -1,5 +1,8 @@
 # review-cdk-nextjs-typescript
 
+
+## graphql for amplify appsync api
+
 ## Cdk
  - app --> multiple (stack) --> multiple (construct)
  - l1: cloudformation resource --> configure resource settings
