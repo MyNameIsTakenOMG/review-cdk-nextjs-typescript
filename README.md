@@ -83,10 +83,28 @@
  - usereducer types
  - useeffect types
  - global types
+ - data fetching
+ - **server actions**
+ - searching functionality using url query
+ - pagination using url query
+ - **hydration issue**:
+   - use `useEffect` hook to make the data only to be rendered after the component or page has been rendered at the client side. (or bypassing the ssr) (use client)
+   - use `dynamic import` from nextjs
+   - use `html element attribute: supressHydrationWarning` (use client)
 
 
-
-
+## zustand
+ - .getState()
+ - .setState()
+ - slice pattern
+## react query
+ - defining the provider
+ - useQuery
+ - useMutation
+ - cache
+ - dependent query
+ - refetching on focus
+ - potential bugs
 
 
 
