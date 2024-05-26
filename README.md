@@ -69,7 +69,7 @@
  - suspense and streaming
  - caching
  - static & dynamic rendering
- - middleware
+ - middleware + amplify server-side apis : `fetchCurrentuser`, etc
  - production build and deploying
 
 
@@ -94,6 +94,10 @@
    - use `useEffect` hook to make the data only to be rendered after the component or page has been rendered at the client side. (or bypassing the ssr) (use client)
    - use `dynamic import` from nextjs
    - use `html element attribute: supressHydrationWarning` (use client)
+ - nextjs suspense
+ - caching
+ - SEO
+ - server action vs api route
 
 
 ## zustand
